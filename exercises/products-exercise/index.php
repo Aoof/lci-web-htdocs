@@ -47,7 +47,9 @@
             }
             ?>
         </table>
-    <?php else: ?>
+    <?php 
+    echo "Total number of products: " . $result->num_rows;
+    else: ?>
         <p>No results found... Please select a category and press Submit</p>
     <?php endif; ?>
 </form>
