@@ -27,7 +27,7 @@
         ?>
     </select>
     <button type="submit" onclick="document.getElementById('op').value='2'">Import Csv</button>
-    <button type="submit" onclick="document.getElementsByTagName('form')[0].method = 'get'; document.getElementById('op').value='1'">Submit</button>
+    <button type="submit" onclick="document.getElementsByTagName('form')[0].method = 'get';">Submit</button>
 
     <?php 
     $result = mysqli_execute_query($connection, "SELECT * FROM product1000 WHERE Category = ?", [$selectedCategory]); 
