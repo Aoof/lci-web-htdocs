@@ -1,5 +1,3 @@
-<html>
-<body>
 <?php 
     $hostname = "localhost";
     $username = "root";
@@ -13,7 +11,5 @@
         die("Connection failed: " . $connection->connect_error);
     }
 
-    echo "Connected successfully to the database<br />";
+    // echo "Connected successfully to the database<br />";
 ?>
-</body>
-</html>

@@ -1,5 +1,15 @@
 <html>
     <body>
+        <h1>Data Manipulation Exercise</h1>
+        <p><strong>Objective:</strong> Create a PHP application that performs CRUD (Create, Read, Update, Delete) operations on a teacher database.</p>
+        <p><strong>Instructions:</strong></p>
+        <ol>
+            <li>First, create the database and table by running <a href="create_db.php">create_db.php</a> in your browser.</li>
+            <li>Use the form below to insert, update, or delete teacher records.</li>
+            <li>The table will display all teachers with options to select and edit them.</li>
+        </ol>
+        <hr>
+
         <?php
             require_once 'dbconfig.php';
 
