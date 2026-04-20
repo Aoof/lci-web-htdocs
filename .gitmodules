@@ -1,6 +1,3 @@
-[submodule "exercises/akaunting-aoof-ca"]
-	path = exercises/akaunting-aoof-ca
-	url = https://github.com/Aoof/akaunting-aoof-ca
 [submodule "exercises/pool-my-finger"]
 	path = exercises/pool-my-finger
 	url = https://github.com/shayandelbari/pool-my-finger
